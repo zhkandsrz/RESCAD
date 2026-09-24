@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rescad-research"
+version = "0.1.0"
+description = "Language-grounded CAD assembly via geometry-constrained interface resolution"
+license = {file = "LICENSE"}
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy>=2,<3", "igraph==0.11.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "jsonschema>=4"]
+cad = ["cadquery==2.8.0"]
+llm = ["openai>=2,<3", "requests>=2.32,<3"]
+
+[tool.setuptools.packages.find]
+include = ["neurocad*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

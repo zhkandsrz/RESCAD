@@ -1,0 +1,29 @@
+{
+  "model_class": "PortConstraintLinkCADV9",
+  "hidden_dim": 64,
+  "use_language": true,
+  "use_global": false,
+  "orbit_mode": "attention",
+  "max_orbits_per_candidate": 16,
+  "checkpoints": [
+    {
+      "seed": 1701,
+      "path": "checkpoints/rescad_seed1701.pt",
+      "sha256": "db2ab4b853a71e065e5bdc7eb8a10412fc60bb4215f57a5ce713b85b776266b5",
+      "tensor_count": 130
+    },
+    {
+      "seed": 1702,
+      "path": "checkpoints/rescad_seed1702.pt",
+      "sha256": "130805e833edd08da3b70e4031344880bbca7da935c6cce45802d95d9a1b9646",
+      "tensor_count": 130
+    },
+    {
+      "seed": 1703,
+      "path": "checkpoints/rescad_seed1703.pt",
+      "sha256": "1a79a11c5489d748a3763c43809d4c03234c66221c5e71bc05b201da628d9dea",
+      "tensor_count": 130
+    }
+  ],
+  "contents": "Original tensor-only checkpoints; no optimizer or local path metadata."
+}

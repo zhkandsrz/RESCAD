@@ -1,0 +1,6 @@
+# Official PyTorch stable Windows CPython 3.12 CUDA 13.0 wheel.
+# Source metadata: https://download.pytorch.org/whl/cu130/torch/
+# Keep --no-deps in bootstrap: environment.yml/explicit conda lock owns the
+# small runtime dependencies, while this file pins the 1.9 GB CUDA artifact.
+torch @ https://download-r2.pytorch.org/whl/cu130/torch-2.13.0%2Bcu130-cp312-cp312-win_amd64.whl \
+    --hash=sha256:2efab1e83604ca628c6d85b9e188c153690980498d1297081a9dad704919303c

@@ -1,0 +1,1109 @@
+{
+  "release": "RESCAD code and Fusion-trained checkpoints",
+  "license": "MIT for original code",
+  "contains_git_history": false,
+  "contains_raw_private_data": false,
+  "full_paper_reproduction_from_checkout_alone": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 119,
+      "sha256": "51d783194963451bf1ebb3de8d4dff75d2490084707afd542b9b7df0687d0d3a"
+    },
+    {
+      "path": "checkpoints/manifest.json",
+      "size_bytes": 890,
+      "sha256": "0d70b0ea39a1dd7f1c8351f730d3de090260dbcadb791ab2ed83f1460bc51ba0"
+    },
+    {
+      "path": "checkpoints/rescad_seed1701.pt",
+      "size_bytes": 1702803,
+      "sha256": "db2ab4b853a71e065e5bdc7eb8a10412fc60bb4215f57a5ce713b85b776266b5"
+    },
+    {
+      "path": "checkpoints/rescad_seed1702.pt",
+      "size_bytes": 1702803,
+      "sha256": "130805e833edd08da3b70e4031344880bbca7da935c6cce45802d95d9a1b9646"
+    },
+    {
+      "path": "checkpoints/rescad_seed1703.pt",
+      "size_bytes": 1702803,
+      "sha256": "1a79a11c5489d748a3763c43809d4c03234c66221c5e71bc05b201da628d9dea"
+    },
+    {
+      "path": "docs/DATA_AND_BASELINES.md",
+      "size_bytes": 2536,
+      "sha256": "6aaebf8a137ada3f4e75156e3c9e23affcd66c3da02ff9a92af4e3ddb54c7d46"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "size_bytes": 5268,
+      "sha256": "724c832fb097d57424f837a626df3a297269655f2e758cc9f141d814aeefc309"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "size_bytes": 1190,
+      "sha256": "1bcc7d196a5b237527d6023d1aa88496be8a437b38df2d3481a16bbd4686f05d"
+    },
+    {
+      "path": "environment-lock-win-64.txt",
+      "size_bytes": 23274,
+      "sha256": "6da8f21079dbe6522fb1bbb8238d0e57998564c4a6e9344776a72856b24b4d78"
+    },
+    {
+      "path": "environment.yml",
+      "size_bytes": 741,
+      "sha256": "e73d7c12bdd0efb3fd1bdd0a606016d1eab45658f9df257b42075386a7051026"
+    },
+    {
+      "path": "examples/offline_demo.py",
+      "size_bytes": 4737,
+      "sha256": "5bf345a3876bb35e5261646094e03ee82042b7a52057c69e7ffc1e4d282b0b74"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1076,
+      "sha256": "4222643de8ec821121dfba810df08e712bcf09bd92eb94cf5ecff3995c83576f"
+    },
+    {
+      "path": "neurocad/__init__.py",
+      "size_bytes": 29,
+      "sha256": "f9356e35bacde875327c4f2676513806f6414796ec539097618d4a90bd5077c3"
+    },
+    {
+      "path": "neurocad/analytic_trim_domain_v1.py",
+      "size_bytes": 66518,
+      "sha256": "e41533cc4082f82174c326b85d138f4897404dbed0271fd46e6137b8bb0d2ae8"
+    },
+    {
+      "path": "neurocad/authenticated_exact_execution_v2.py",
+      "size_bytes": 50742,
+      "sha256": "36d02adca4d650561fb3578663a9f13102e3fd48a57c025fd50d853874d3f005"
+    },
+    {
+      "path": "neurocad/batch_infer_assemble.py",
+      "size_bytes": 117418,
+      "sha256": "6e6a9c7999e43fda5c38d8c7c083af9b9cfb37f766e44059a965da72378b5024"
+    },
+    {
+      "path": "neurocad/benchmark_v2_constants.py",
+      "size_bytes": 2717,
+      "sha256": "c5850282a1603961e949fdafcab744b4620a16c81f1d1baf7c8171e747bc6f44"
+    },
+    {
+      "path": "neurocad/benchmark_v2_model_view.py",
+      "size_bytes": 18177,
+      "sha256": "9c1f3e5bb742c264aa3896499170de06d9cad5eeed3bf19df305764c74583349"
+    },
+    {
+      "path": "neurocad/benchmark_v2_model_view_v2.py",
+      "size_bytes": 161089,
+      "sha256": "667a85b5fd6fda5fba0dfb787b1f69d4b49beaf35f38194d21cb1e9657b38100"
+    },
+    {
+      "path": "neurocad/benchmark_v2_private_supervision.py",
+      "size_bytes": 25300,
+      "sha256": "3de48a6fe18addcb146f5a6a59c97170e9d24c11356ef305cc583c02dfd01ea3"
+    },
+    {
+      "path": "neurocad/benchmark_v2_protocol.py",
+      "size_bytes": 41003,
+      "sha256": "d5e81773d2f1d1225bb7e3ad91de992f16885e5205ef815e870629354490b8b5"
+    },
+    {
+      "path": "neurocad/benchmark_v2_public_artifacts.py",
+      "size_bytes": 10020,
+      "sha256": "0b4d0c18eb86480ab0e465617834240a3e205f469494a4309473aa6a98d77006"
+    },
+    {
+      "path": "neurocad/benchmark_v2_query_semantic_adapter_v2.py",
+      "size_bytes": 73400,
+      "sha256": "3577f751d51d3c85564ea9d82cb71a08bf250d7a75f4ad1530601723abef8c98"
+    },
+    {
+      "path": "neurocad/benchmark_v2_query_semantic_adapter_verifier_v2.py",
+      "size_bytes": 34780,
+      "sha256": "10ef58465876b589091686b5ac1355cbd4ed4f32f285f0f0ab1798fceff38568"
+    },
+    {
+      "path": "neurocad/benchmark_v2_training_provenance.py",
+      "size_bytes": 50900,
+      "sha256": "d9b85dca67ec04e93e9fa3652a1bf9642586de7591ab53b78f60c481e3670429"
+    },
+    {
+      "path": "neurocad/benchmark_v3_unlabeled_step_view.py",
+      "size_bytes": 10002,
+      "sha256": "577745f491bbace50114edece43ea7ad066c8afbf09f8f2ce0a5b4f38eb76c5c"
+    },
+    {
+      "path": "neurocad/brep_full_graph_budget_preflight.py",
+      "size_bytes": 20667,
+      "sha256": "6840573eefbb05c19a6b706889d483d07aa48fe10ce1b6d211ad40e5b9198679"
+    },
+    {
+      "path": "neurocad/brep_graph_budget_decision_v2.py",
+      "size_bytes": 12774,
+      "sha256": "86d468ac238a0d74f00ea8b032d62b06a0b5ce468a74e37d49e47d85d930e104"
+    },
+    {
+      "path": "neurocad/brep_program_learner_v1.py",
+      "size_bytes": 122254,
+      "sha256": "23a266028294e764a7abaa33f6b5151c52f0d3a942e3864c218c161ee1d85cea"
+    },
+    {
+      "path": "neurocad/brep_tensor_cache_v4_unlabeled.py",
+      "size_bytes": 71730,
+      "sha256": "c218e16873ffc160e1396b4d78bf8e75903e37c4d066b5b87f0e3f2da976a913"
+    },
+    {
+      "path": "neurocad/brep_tensor_cache_v5_lineage.py",
+      "size_bytes": 53493,
+      "sha256": "2143c1315152e7ced60e1627adb69a1c98c24b412696bc6449a49dc247ef9400"
+    },
+    {
+      "path": "neurocad/build_interface_dataset.py",
+      "size_bytes": 55952,
+      "sha256": "997014c3e09a000e904af857c908f477787d7dfc2cf86ebcd73a6a6b74aa4a55"
+    },
+    {
+      "path": "neurocad/build_interface_pair_dataset.py",
+      "size_bytes": 41897,
+      "sha256": "048f6fd8b6f45f4acee930929ca9a2222d76654ce8e2afa42cc26175b30d01db"
+    },
+    {
+      "path": "neurocad/cadquery_backend.py",
+      "size_bytes": 57896,
+      "sha256": "e030bd81490cda1f72644e190b79ecc3f87881825508593f8503e2b967bbe09f"
+    },
+    {
+      "path": "neurocad/collision.py",
+      "size_bytes": 1899,
+      "sha256": "7de9604340ee6455c08d065ff4c9afcf7c9846e4f946e710e7962fcd436d49c9"
+    },
+    {
+      "path": "neurocad/constraint_catalog_trust_root_v1.py",
+      "size_bytes": 2198,
+      "sha256": "2984ac2e8583f44323018152a037bcbbf27ebcc189589e4bb6371107411c1044"
+    },
+    {
+      "path": "neurocad/constraint_executable_program_catalog_v1.py",
+      "size_bytes": 46479,
+      "sha256": "454cbbb653c6005c486024a539ec2d115c55c2856527de451761ccd013e89955"
+    },
+    {
+      "path": "neurocad/constraint_manifold_factorized_p11_v2.py",
+      "size_bytes": 36054,
+      "sha256": "3b704dc4c20f362435ed61e52d3091dc29568f56cb2b9fc9830dc4e9926e80ae"
+    },
+    {
+      "path": "neurocad/constraint_manifold_occ_adapter_v3.py",
+      "size_bytes": 33177,
+      "sha256": "a9676b8e296dc433e235309b505400777bf16eafe7cfd6dbbc8f7303c1fc271f"
+    },
+    {
+      "path": "neurocad/constraint_manifold_occ_adapter_v4.py",
+      "size_bytes": 8586,
+      "sha256": "32f31392e78815d0fd5a37b7c7ce57413e090de2cbe1508efabc85f870f58b60"
+    },
+    {
+      "path": "neurocad/constraint_manifold_occ_adapter_v6.py",
+      "size_bytes": 8082,
+      "sha256": "63e8963d95d634ba2e72166dbdb54f252401d47781b435dde1c75a9f859bf045"
+    },
+    {
+      "path": "neurocad/constraint_manifold_occ_adapter_v8.py",
+      "size_bytes": 21165,
+      "sha256": "2c3c1a87dc285e0c6543db8bc8cc66183c7ae4cc09fb082f04f1cdfdbda9d27b"
+    },
+    {
+      "path": "neurocad/constraint_manifold_occ_adapter_v9.py",
+      "size_bytes": 7566,
+      "sha256": "38fd9a124ee8c4f72f647646ea91e3e3e4f7656f538b92a5a04bb8c21a6edf33"
+    },
+    {
+      "path": "neurocad/constraint_manifold_p9_collision_topk_v1.py",
+      "size_bytes": 14975,
+      "sha256": "d7b121c6f27b11d150ee2cdb6a3a46bb3dfa982950c90a3ba6a6bc9d3c0dc7f4"
+    },
+    {
+      "path": "neurocad/constraint_manifold_preprocess_v4.py",
+      "size_bytes": 162807,
+      "sha256": "09229f7f89324013e8bcfb05d0f34431d7a1f71b8be512abd6346682fda1e0ee"
+    },
+    {
+      "path": "neurocad/constraint_manifold_solver_v1.py",
+      "size_bytes": 42316,
+      "sha256": "395e8f69d5a91faeecf8d65381f02463d803f76142c0f064394821bbd9027f18"
+    },
+    {
+      "path": "neurocad/constraint_manifold_solver_v2.py",
+      "size_bytes": 50133,
+      "sha256": "719549c77f17cea7141686aede8902e12f90b61b41ccc531f084caac3e49ae69"
+    },
+    {
+      "path": "neurocad/constraint_manifold_solver_v3.py",
+      "size_bytes": 46800,
+      "sha256": "814f625d7a7e5c9405e667e3c64fe3cd7c1f516eb290f42fc40e246cfa03420e"
+    },
+    {
+      "path": "neurocad/constraint_manifold_solver_v4.py",
+      "size_bytes": 76077,
+      "sha256": "76d0ceb617d0d7855d13540102a463ade6fe01dd6dd42ce735830d7950cc6a8b"
+    },
+    {
+      "path": "neurocad/content_receipt_obj_extension.py",
+      "size_bytes": 29719,
+      "sha256": "1c0cb61b96610c4939dd602a05f88b4f721788c70bbd248f5fa467712bebd53c"
+    },
+    {
+      "path": "neurocad/demo.py",
+      "size_bytes": 18941,
+      "sha256": "5cc7f0c13e97799eb9043b9b0ed09d0ab705b6e74b2f7770dc491472c5f4787f"
+    },
+    {
+      "path": "neurocad/domain_types.py",
+      "size_bytes": 24871,
+      "sha256": "1bf6d58eff22a886091f99e58a84bd053d8a87b613daebda76a684f98503cd4e"
+    },
+    {
+      "path": "neurocad/evaluation.py",
+      "size_bytes": 30735,
+      "sha256": "f01370d3ebce435d65f0953a5f525bffd43920f7a4fdcfcf2e902d91d67112eb"
+    },
+    {
+      "path": "neurocad/execution_input_authority_v1.py",
+      "size_bytes": 41567,
+      "sha256": "e5e90bf2690a694cea3fdc50c82bf0998be7256cc80316dfa015313fe80c2bc4"
+    },
+    {
+      "path": "neurocad/family_split_builder.py",
+      "size_bytes": 135276,
+      "sha256": "78fa995f583ca5a7cc176654de7c9a106304dc2d1e21d8ab10edc200c3d4f0dd"
+    },
+    {
+      "path": "neurocad/fixed_program_catalog_protocol_v1.py",
+      "size_bytes": 9998,
+      "sha256": "8258816e9542c9c94a29ac63f7c588cddc7dcb152a38b356c17f764b6285551b"
+    },
+    {
+      "path": "neurocad/formal_archive_inputs.py",
+      "size_bytes": 16255,
+      "sha256": "d08aaa53c57106eadb886b0fdebc96ef324751c55397cbbbde95193bf30c0b18"
+    },
+    {
+      "path": "neurocad/formal_geometry_authority.py",
+      "size_bytes": 143401,
+      "sha256": "14b7b01919d1b3694c3bb0a949fdad330424f35b0c3f3a6c2c8a1e58363208d5"
+    },
+    {
+      "path": "neurocad/frame_randomization.py",
+      "size_bytes": 12361,
+      "sha256": "4f62915c48f5d156e28c9b6e367609ffc64d8ee07e97dc1fa06fd300e58550c7"
+    },
+    {
+      "path": "neurocad/full_graph_face_frame_authority_v1.py",
+      "size_bytes": 70485,
+      "sha256": "4753b6c9edf81a793168f63906e7dba99485d15ac861cf6bbcbc069ca0c4b713"
+    },
+    {
+      "path": "neurocad/fusion_dataset.py",
+      "size_bytes": 11454,
+      "sha256": "90838342c071dda9d423a7d0cb3f985f7e71de8fbf72d6c5d3767bdb8c57a6bd"
+    },
+    {
+      "path": "neurocad/fusion_face_mapper.py",
+      "size_bytes": 281965,
+      "sha256": "be5cd0a4c68850e49cae9d3200afdc2d5de57cf744701b91069a9fb972f8b2fa"
+    },
+    {
+      "path": "neurocad/interface_features.py",
+      "size_bytes": 31595,
+      "sha256": "cbd99c9c4e403d2b1bd66ab6f0c54dfc0b2f23dd5e7d7b94eb02c19fb0866216"
+    },
+    {
+      "path": "neurocad/interface_grounder.py",
+      "size_bytes": 29611,
+      "sha256": "a7a9683c42d38dfb8cf0093eb9099d2c9fcac31f96d7d99414a9d3641b0fe77b"
+    },
+    {
+      "path": "neurocad/interface_pair_features.py",
+      "size_bytes": 22611,
+      "sha256": "acbeeb26a49c158910e7e3ee8392dbaa1f1f409bb42032848a0b813621ac9a30"
+    },
+    {
+      "path": "neurocad/interface_pair_scorer.py",
+      "size_bytes": 38041,
+      "sha256": "bca1e687c4f3b61245fdc45983effb940d497be76479380a015be437896e21ac"
+    },
+    {
+      "path": "neurocad/interface_scorer.py",
+      "size_bytes": 32579,
+      "sha256": "654df418faa4dfe150ce44c175e663fc5f0ea457d28d1025517e95dfcc77a5c9"
+    },
+    {
+      "path": "neurocad/isolated_face_mapper_replay.py",
+      "size_bytes": 31744,
+      "sha256": "806c8290cf105cf648cffd4c05036e56e15d54ee3be03edb63035d7f03c04d8f"
+    },
+    {
+      "path": "neurocad/joint_interface_program_learner_v1.py",
+      "size_bytes": 37678,
+      "sha256": "2beb6df5fed9c6fe1c750a8e14d12e9b517b82b0b1657bfcc1eddd44c03fabc9"
+    },
+    {
+      "path": "neurocad/joint_interface_program_learner_v2.py",
+      "size_bytes": 48881,
+      "sha256": "1ce78be8e713332c7202374bad6f76e6d9b2a57fb42622f3fee9d9f1275692a2"
+    },
+    {
+      "path": "neurocad/joint_interface_program_learner_v3.py",
+      "size_bytes": 53857,
+      "sha256": "6004e04b802489d9a70a735e4163ea60d737aa18ef345e7651b6c6348c0c0721"
+    },
+    {
+      "path": "neurocad/joint_interface_training_v2.py",
+      "size_bytes": 66528,
+      "sha256": "5d73ef50f45937421112f85e0857bd71dd8119ac70f0c4378e5ac2304905aac0"
+    },
+    {
+      "path": "neurocad/joint_interface_training_v3.py",
+      "size_bytes": 38995,
+      "sha256": "1ae081fddc707184b96e6969e470e422a1d6389961fc7a38d102b0277ba4a010"
+    },
+    {
+      "path": "neurocad/linkcad_assembly_export_v1.py",
+      "size_bytes": 14459,
+      "sha256": "c5ceaa6a078e3913e19dba3633ba4f60515193531bcb90594d5a4c147d2aa52c"
+    },
+    {
+      "path": "neurocad/linkcad_assembly_geometry_evaluation_v1.py",
+      "size_bytes": 14032,
+      "sha256": "7e1f82b8467819d0d2953b4651e3451aa925debc44dec2912d4e89518e427e94"
+    },
+    {
+      "path": "neurocad/linkcad_assembly_reference_v1.py",
+      "size_bytes": 5250,
+      "sha256": "0186e8b87e8aeeea01d018c93d7c5b9e27c8e1ec5c0e29e4b4103f62d80665de"
+    },
+    {
+      "path": "neurocad/linkcad_brep_cache_v1.py",
+      "size_bytes": 3058,
+      "sha256": "1531d19d675d2cdaf81bcf839324aea74535f38bdb3918aa0c2e371254eb0af3"
+    },
+    {
+      "path": "neurocad/linkcad_brep_encoder_v1.py",
+      "size_bytes": 10734,
+      "sha256": "d8954af474da95d5f69003cbeeacc364f3a5d0cead02a544c8622dad395084e5"
+    },
+    {
+      "path": "neurocad/linkcad_brep_factorized_model_v1.py",
+      "size_bytes": 9951,
+      "sha256": "93b60ca614a9c21df22f0cfd6834cdd9c6dbf3dcc3b6216b3721a1e9257bb74b"
+    },
+    {
+      "path": "neurocad/linkcad_candidate_protocol.py",
+      "size_bytes": 4226,
+      "sha256": "c1c193fe54e363bdbb7d10e2040a6712b6c17e1b0ac6683e1c3c2ff6541a4dc9"
+    },
+    {
+      "path": "neurocad/linkcad_confirmation_execution_evaluation_v1.py",
+      "size_bytes": 12373,
+      "sha256": "7da7b1a1b868a0ed28853aa260dedb795b347be1b5d2014914290d920556941c"
+    },
+    {
+      "path": "neurocad/linkcad_confirmation_statistics_v1.py",
+      "size_bytes": 10392,
+      "sha256": "3fb37d039d37884974b38f71c2edd2d85eb07bdb54821d6e7e713bf2c7558f64"
+    },
+    {
+      "path": "neurocad/linkcad_contract_dispatch_v1.py",
+      "size_bytes": 3932,
+      "sha256": "ff3fe041a77ce385cf897616cff7e3bc6106c5daebeeadf86e3d894792c416dc"
+    },
+    {
+      "path": "neurocad/linkcad_contract_strength_evaluation_v1.py",
+      "size_bytes": 8259,
+      "sha256": "5745ba5bda9064a218dfd68fcbf92220a3d4cb936d1540a56e547964b9aab828"
+    },
+    {
+      "path": "neurocad/linkcad_contract_strength_v1.py",
+      "size_bytes": 4936,
+      "sha256": "c8b35cf01cc3eef57023635cd21f8e1c76882bccbf8449deaa13f9b8ee0430ce"
+    },
+    {
+      "path": "neurocad/linkcad_exact_execution_v1.py",
+      "size_bytes": 35498,
+      "sha256": "f615e02e2613180564e8d3a493d2f0d2f8924a8e34b8d8ae4c56251fa466c4e9"
+    },
+    {
+      "path": "neurocad/linkcad_execution_rerank_v1.py",
+      "size_bytes": 8256,
+      "sha256": "50b71d9b8905c9cf3ae78247d3edf3096679831633b58b6f3f886c17c9070cf3"
+    },
+    {
+      "path": "neurocad/linkcad_external_brep_baselines_v1.py",
+      "size_bytes": 11752,
+      "sha256": "fab27011ac4da4adcf4f5a3c51791b24337942db9776db95352e006f01a4b732"
+    },
+    {
+      "path": "neurocad/linkcad_factorized_model_v1.py",
+      "size_bytes": 24627,
+      "sha256": "addb21e627b59434c2eb50d8955eec65214bf4a7ef432973816e7868489ffdfc"
+    },
+    {
+      "path": "neurocad/linkcad_functional_authority.py",
+      "size_bytes": 8550,
+      "sha256": "e81ccbf3ccae89bf94061fed48a1ed75dbbba44e6623eb7e1e81b382103f53be"
+    },
+    {
+      "path": "neurocad/linkcad_generalist_agent_baseline_v1.py",
+      "size_bytes": 12146,
+      "sha256": "3ea47cf3b6cd5896c202be1908be59fcb0e42dfd670aeb747e407b6bd197c42d"
+    },
+    {
+      "path": "neurocad/linkcad_global_assembly_execution_v1.py",
+      "size_bytes": 28706,
+      "sha256": "31c293009363f566944a3cb2cea79f74aff2b58b6964aa5982c967fa176ec641"
+    },
+    {
+      "path": "neurocad/linkcad_joinable_style_baseline_v1.py",
+      "size_bytes": 9428,
+      "sha256": "01103004056b3698a38843e2fc62a530c292a7ab2973430877fdbde6e15d1fda"
+    },
+    {
+      "path": "neurocad/linkcad_joint_execution_evaluation_v1.py",
+      "size_bytes": 4084,
+      "sha256": "9f3f4f1e2e886bfa44b8e4c79e4f49fee3bae7587f78812e9325028f64c122df"
+    },
+    {
+      "path": "neurocad/linkcad_kinematic_execution_v2.py",
+      "size_bytes": 30239,
+      "sha256": "7d936ec1cb36eacfbcb6b01a31bf88c5ecd5eb295c2fc9088859b9d47a850c71"
+    },
+    {
+      "path": "neurocad/linkcad_kinematic_execution_v3.py",
+      "size_bytes": 16999,
+      "sha256": "1452153580f6187a87e8e334ced91a4790802190fd9d8a019e11264517748441"
+    },
+    {
+      "path": "neurocad/linkcad_language_contracts.py",
+      "size_bytes": 2822,
+      "sha256": "8eb6a95332fc098e69fef3e04e0a8c2d3487322c4cf35b6702bb683fdefca525"
+    },
+    {
+      "path": "neurocad/linkcad_language_planner_v1.py",
+      "size_bytes": 21988,
+      "sha256": "3bef510d78b15788eaa4997c2e62def200062ceb4f34dddf7053947043847f7d"
+    },
+    {
+      "path": "neurocad/linkcad_llm_rotation_normalization_v2.py",
+      "size_bytes": 1605,
+      "sha256": "ede115409d4bcda8cdf85070aa40982fa350eb8ebfc91df13afc79ff075e33fd"
+    },
+    {
+      "path": "neurocad/linkcad_port_conditioned_model_v6.py",
+      "size_bytes": 2123,
+      "sha256": "7f90ad8e91e93e3e75bd85930d93917113ae1ba51cfde0ae240622e3a76954dc"
+    },
+    {
+      "path": "neurocad/linkcad_port_constraint_model_v9.py",
+      "size_bytes": 995,
+      "sha256": "7fb6ff032b6fa460c6eac7aaea064374139db231d64f08d0b46fa3dd92cee1ff"
+    },
+    {
+      "path": "neurocad/linkcad_port_contract_v1.py",
+      "size_bytes": 5774,
+      "sha256": "3343e6da33784a9cfbb4d5bd824dfd5510aeb1335f0ad7242bc8e87730a90a56"
+    },
+    {
+      "path": "neurocad/linkcad_pose_equivalence_v1.py",
+      "size_bytes": 5854,
+      "sha256": "bd5119af9ef28f0626a3f3404e66b4d3dec4e56840f02abb9ce95355bf6e13e0"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_cache_merge_v2.py",
+      "size_bytes": 2933,
+      "sha256": "3056794d27a81b8004ec3ff625938d8902602d9e3a3a012a6343413686357efa"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_cache_v2.py",
+      "size_bytes": 6929,
+      "sha256": "2aa341422bc62d8a8574b9d4e9da7a5dc02ae039ce6a8a1828cd92a83335d8c0"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_cache_v3.py",
+      "size_bytes": 978,
+      "sha256": "7a8207715064213d2200384821a12ded423fc79658bed8b633625535bdc0b54c"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_contract_rerank_v1.py",
+      "size_bytes": 7543,
+      "sha256": "ceba9076fed2555b0f5f40dd8f17dde7ba65030793a8fe67fed09d34b0681900"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_factorized_model_v2.py",
+      "size_bytes": 4090,
+      "sha256": "3669bea5cf4f3a89c6d51289bc2bfedbd377879c7555e04d0c91d03ed7ea8798"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_factorized_model_v3.py",
+      "size_bytes": 952,
+      "sha256": "f935cb9947c2a4e88ccb8ed6fdf612e36590711a20d0febb0ef8bff9e23c502f"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_factorized_model_v4.py",
+      "size_bytes": 387,
+      "sha256": "76c909a8aed018ed7086fde4bf95816fe211ecf0ee25316daa4708e8ac9a2ecf"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_graph_v2.py",
+      "size_bytes": 8207,
+      "sha256": "15710f60fe6b99ce4f2b46874b2e70dab4f4923074219e4ce259ef169101356e"
+    },
+    {
+      "path": "neurocad/linkcad_primitive_graph_v3.py",
+      "size_bytes": 2335,
+      "sha256": "d14263fc5e4254a615275deb79edcd65732723572dfc1c10ae6d4668079c1e84"
+    },
+    {
+      "path": "neurocad/linkcad_procedural_transfer_v1.py",
+      "size_bytes": 19682,
+      "sha256": "d89c8197c02440d2c12dc35378c91f5efa927f8b019fed0cabef353fb1d5698d"
+    },
+    {
+      "path": "neurocad/linkcad_pure_llm_baseline_v1.py",
+      "size_bytes": 12313,
+      "sha256": "87b1aa834b469828eb99f7db774a43d5fcf1d01f76c478ee7dd8b7152ddb283a"
+    },
+    {
+      "path": "neurocad/linkcad_pure_llm_execution_v1.py",
+      "size_bytes": 13243,
+      "sha256": "70079d8114e34df9bd8edb410bd3ea810d75884c7a587a322467b8f6a0b7500e"
+    },
+    {
+      "path": "neurocad/linkcad_request_graph_compiler_v1.py",
+      "size_bytes": 29020,
+      "sha256": "5c773f4844cbcbf86a50a9d8ebbeda71e7baec8baa0041f1cc204f72d0cd6d1d"
+    },
+    {
+      "path": "neurocad/linkcad_serialized_brep_agent_v2.py",
+      "size_bytes": 12469,
+      "sha256": "f13daf37bd9ddc83eb273e0f18266653b8d472b7c30dfd6c8ea070c40cf15e68"
+    },
+    {
+      "path": "neurocad/linkcad_source_adaptation_v1.py",
+      "size_bytes": 5971,
+      "sha256": "176d3b892a3d0f798b373829becf2361f8ed547ce434d800831127de3b3af58b"
+    },
+    {
+      "path": "neurocad/linkcad_spada_style_baseline_v1.py",
+      "size_bytes": 6651,
+      "sha256": "b890568de17c794560a28eb0016b8522083d01d5f9a705eaf8b0602fc06f3f05"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_exact_evaluation_v1.py",
+      "size_bytes": 11113,
+      "sha256": "0e047ffbe0fbfc36dff0fd383cd5485b86a4df69672bacd5fbc2892a79517077"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_generator_v1.py",
+      "size_bytes": 9073,
+      "sha256": "e5175aaa220e1c2ec6d81e2d4e06876063a637911d6a3fdb81ccc0109030bdad"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_linking_domain_v1.py",
+      "size_bytes": 17321,
+      "sha256": "5549ef86c2cc596c448b1db7b1fd886f0aa23b2540265b0d88175020c28fba4e"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_transfer_v1.py",
+      "size_bytes": 4564,
+      "sha256": "f8f488ce89f284522abaccd0979c17a08239606e610a20f88c4d72dd4aa107f6"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_transfer_v2.py",
+      "size_bytes": 4432,
+      "sha256": "0309df79979803452ee5d454f9aed144d972250587b5914addf30cb9c03437c5"
+    },
+    {
+      "path": "neurocad/linkcad_step_llm_transfer_v3.py",
+      "size_bytes": 4739,
+      "sha256": "958fb284568d4a0f1fe2ef2356b3fc03274f8f36b96933e8ec5447057e83b78e"
+    },
+    {
+      "path": "neurocad/linkcad_style_augmentation_v1.py",
+      "size_bytes": 10859,
+      "sha256": "13b27ca14aa7b99ba634c2488dd45478f151eca007fda1c3c673ebfd8c3f3ca5"
+    },
+    {
+      "path": "neurocad/linkcad_symbolic_baseline_v1.py",
+      "size_bytes": 18063,
+      "sha256": "15bf039e7c3cde5955661fdb177a58359529b3aae651a327407b89b26afb970d"
+    },
+    {
+      "path": "neurocad/linkcad_text_to_cadquery_generator_v1.py",
+      "size_bytes": 9887,
+      "sha256": "42c41b2edcf674d3ba9d521629f5cb5a4436b29ebf1c4de8d72817545ba8a005"
+    },
+    {
+      "path": "neurocad/linkcad_text_to_cadquery_transfer_v1.py",
+      "size_bytes": 5496,
+      "sha256": "6a38a350fbd0a73e90c9f90dd5ed9af9e95911ac43933e2b915271536ae501f9"
+    },
+    {
+      "path": "neurocad/linkcad_text_to_cadquery_transfer_v2.py",
+      "size_bytes": 5601,
+      "sha256": "38d398f067b738efd0840f6b03c85aaf0ec65cc3f29b73b3ebe71dd81c54fc87"
+    },
+    {
+      "path": "neurocad/linkcad_text_to_cadquery_transfer_v3.py",
+      "size_bytes": 5253,
+      "sha256": "9d4740ca0c1ed1a79cc15a51dd44c85a2e589edcb63c90eca5e392e6dfc22490"
+    },
+    {
+      "path": "neurocad/linkcad_text_to_cadquery_transfer_v4.py",
+      "size_bytes": 8429,
+      "sha256": "b4ea57075c0972a956cc96b71288f7e0e7ec3a5ade865dd656a3e697b98063bc"
+    },
+    {
+      "path": "neurocad/mate_pose_miner.py",
+      "size_bytes": 90183,
+      "sha256": "75c21eb24a57146d79a5c533eb82bc9582e8f59aea6017279486261c98e5c294"
+    },
+    {
+      "path": "neurocad/mate_pose_retriever.py",
+      "size_bytes": 75614,
+      "sha256": "8cf2cf0e9e7c72db0fa1118a5713316153787b163f25446499c3a091714ec66b"
+    },
+    {
+      "path": "neurocad/mate_programs.py",
+      "size_bytes": 9360,
+      "sha256": "0b282013afdc1c755881a5fa688af7b3d1604a1fc32016bc77f8f02b2240751a"
+    },
+    {
+      "path": "neurocad/mate_semantic_authority.py",
+      "size_bytes": 53173,
+      "sha256": "377b52ee716fec07587d2d995f4d391a85e5302d172252d65db86ea61f7b9b05"
+    },
+    {
+      "path": "neurocad/math3d.py",
+      "size_bytes": 2596,
+      "sha256": "0bff76db54fc9bfed7b9e3a60073f3966f848b18c62bf8f259200a2c63c34d99"
+    },
+    {
+      "path": "neurocad/offline.py",
+      "size_bytes": 32129,
+      "sha256": "d64b0608084b540160b7d02b2a48d7eda16e8fce6b7ca7e592100cbdc872ab14"
+    },
+    {
+      "path": "neurocad/paths.py",
+      "size_bytes": 6803,
+      "sha256": "aa80bdc6541c650e9b3ea9fba33c0af843aa7b224235e5b20a80b4a943edd4e4"
+    },
+    {
+      "path": "neurocad/physics_grounder.py",
+      "size_bytes": 57129,
+      "sha256": "effd891de45001bd9c47d9c5366d40809d16b1de4e61bb23e735c224a9dbec04"
+    },
+    {
+      "path": "neurocad/pipeline.py",
+      "size_bytes": 11577,
+      "sha256": "792db325a1efd94d5b25e3535c0684a081b45e0b3dc9e63d80c55b032b233465"
+    },
+    {
+      "path": "neurocad/planar_chordal_trim_domain_v1.py",
+      "size_bytes": 27372,
+      "sha256": "299b789198acc64062386f70c7af615e45cea48858cec317c748d8effc63e6a6"
+    },
+    {
+      "path": "neurocad/planner.py",
+      "size_bytes": 161705,
+      "sha256": "01d3679c8fe8569a9af070f68418acc65283c09be8b1a0cef233dae1be9cba8e"
+    },
+    {
+      "path": "neurocad/program_class_reranker.py",
+      "size_bytes": 59703,
+      "sha256": "dfa78d102f345e664d479df2520e6cd69e4f589877475c439609c95694ce0239"
+    },
+    {
+      "path": "neurocad/program_proposer.py",
+      "size_bytes": 13900,
+      "sha256": "b16d30605cfbf2f97af4b5c1e7c4f223b36fd42746ff715862fb2c5cea52a7c8"
+    },
+    {
+      "path": "neurocad/query_mate_semantic_authority_v1.py",
+      "size_bytes": 51905,
+      "sha256": "f5b9e907fd46f7bd0c0371b21811590889480d91222d03f9943abe837b52166c"
+    },
+    {
+      "path": "neurocad/query_mate_semantic_full_domain_v1.py",
+      "size_bytes": 34369,
+      "sha256": "adba4838b925a831bb935acd6b4d26d4bf9a9c2fda6326a3ffe608fb18d2771f"
+    },
+    {
+      "path": "neurocad/retrieval.py",
+      "size_bytes": 59504,
+      "sha256": "340276a5efecfa15cc613dd8bfa7dae306803d56bb46e13a14c718bef4ad1ec3"
+    },
+    {
+      "path": "neurocad/semantic_surface_compatible_topk_decoder_v1.py",
+      "size_bytes": 12643,
+      "sha256": "bb3a5553d7af13961b52110062020c90faeba03edc5e92d3e22d81bd1a36e612"
+    },
+    {
+      "path": "neurocad/solver.py",
+      "size_bytes": 82985,
+      "sha256": "7325fb05e7c9d3613245a72979d3b999789526beb7b65ae265986dcebeed0bc2"
+    },
+    {
+      "path": "neurocad/source_obj_analytic_support_v1.py",
+      "size_bytes": 50516,
+      "sha256": "4d336afc84c7e5ce837085487787ba6c8f9713682463dffd1ccf09fd51d57c1e"
+    },
+    {
+      "path": "neurocad/split_hygiene_audit.py",
+      "size_bytes": 38795,
+      "sha256": "84df069b414630bd147010cba56e4fc331db4b04d6e956c5db71d4a08dfaa6bf"
+    },
+    {
+      "path": "neurocad/supervised_worker_attestation_v1.py",
+      "size_bytes": 6984,
+      "sha256": "5affa92811d2cda7459bb3424cf1a359eac9533b8fa4a39424e885cb8ffbbad2"
+    },
+    {
+      "path": "neurocad/taxonomy.py",
+      "size_bytes": 7776,
+      "sha256": "2fec2c631ce300807cfcb1ff86ef0292c3335059884493fc31d91e623057b5ec"
+    },
+    {
+      "path": "neurocad/tools/__init__.py",
+      "size_bytes": 29,
+      "sha256": "f9356e35bacde875327c4f2676513806f6414796ec539097618d4a90bd5077c3"
+    },
+    {
+      "path": "neurocad/tools/adapt_linkcad_source_interface_v1.py",
+      "size_bytes": 4266,
+      "sha256": "e243157f5744ff3272e440913c8e683ab58741e493aecf75f2fde18216d784a5"
+    },
+    {
+      "path": "neurocad/tools/adapt_linkcad_source_ranker_v1.py",
+      "size_bytes": 4374,
+      "sha256": "c56a402b898a831e0e715b4b332be15cf5380ad763e66d07f9eca1b6604852d3"
+    },
+    {
+      "path": "neurocad/tools/bootstrap_linkcad_confirmation_deltas_v1.py",
+      "size_bytes": 4449,
+      "sha256": "695d920b5063bf1b1809626d26a2a596ca1b7b535da1330ba95b87a843522ea1"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_assembly_geometry_v1.py",
+      "size_bytes": 6449,
+      "sha256": "8edbddfd532ae865a9d6740cc528421ba8ea596a892bbb9d4cbd740058a6e22f"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_checkpoint_v2.py",
+      "size_bytes": 7811,
+      "sha256": "4e50af88d093fc259d785e024e282cb89733ca6babb2dde8b7f43fa7446eb95d"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_confirmation_execution_v1.py",
+      "size_bytes": 2319,
+      "sha256": "46102fa577e6eed4c2c864f03fa00f6f1d15dab716597b5bbfb49e48b6e630d7"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_confirmation_v2.py",
+      "size_bytes": 15534,
+      "sha256": "fafb005c75272167409d6e67b89d104a5109cfb055cfcb824a5e23cc78a2fa7b"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_global_decoder_v1.py",
+      "size_bytes": 6174,
+      "sha256": "0cbe3ba88e9a28d068c4d398e37d6415e59c96df36c1a81a47c9e882a25aaff5"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_joinable_style_v1.py",
+      "size_bytes": 10889,
+      "sha256": "10c6bbfe34309015ca28d688303f2232630a622c274a88fad0c060356f319f7d"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_joint_execution_selection_v1.py",
+      "size_bytes": 2857,
+      "sha256": "b5ccad8fe4155d25aa8b751a9fd9629bd7092a4aa11115a3487591a0e994dde8"
+    },
+    {
+      "path": "neurocad/tools/evaluate_linkcad_volume_iou_v1.py",
+      "size_bytes": 5436,
+      "sha256": "a4e7f54ba1f4b4ce6a5462d0ae8ca808dc339306af0d8d37b4cb04d760a7a733"
+    },
+    {
+      "path": "neurocad/tools/export_linkcad_assembly_package_v1.py",
+      "size_bytes": 4032,
+      "sha256": "b06d8dcbf83b5f1f228008c37d9b863bf30ab13b35b8f6132da5d8645066d92e"
+    },
+    {
+      "path": "neurocad/tools/export_linkcad_pure_llm_v1.py",
+      "size_bytes": 3333,
+      "sha256": "c840d49455be5859f9bfcdb58c590bb39f3b59012385db177072f73005ef8390"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_brep_cache_v1.py",
+      "size_bytes": 6339,
+      "sha256": "e5671189a7c9cc1d06fc0382514f99873a9313f034d35df5b0c90bb7cd93e252"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_contract_dispatch_v1.py",
+      "size_bytes": 1247,
+      "sha256": "ae06a14d8f1bb0c1c18cd6bcea51b91d7fa3542f57f4b2c6f0e69fa565676a77"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_contract_dropout_training_v1.py",
+      "size_bytes": 4817,
+      "sha256": "5b85edaa9d345da1a1f90c5e36e69135d98d62cbc462c0f0931aa08b470c4acb"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_planner_conditioned_public_v1.py",
+      "size_bytes": 4547,
+      "sha256": "f9dbe48018faf18a2167d25a4d3c4a1c93c9441c4d1fb99701016026edbce6a1"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_port_feasibility_sidecar_v1.py",
+      "size_bytes": 3329,
+      "sha256": "aa95e53eec7c33b36c831268bc8ffed2a24817d639545badef48102d1aeaace2"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_primitive_cache_v2.py",
+      "size_bytes": 5423,
+      "sha256": "3d443160645139fbf6ec0d13e4046f617c67d9d291b96ee251271771e3886185"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_primitive_cache_v3.py",
+      "size_bytes": 5158,
+      "sha256": "c4623c1b98dc0ae2d39a694a9c24c0c88c0afdc846441130a312ba030e0ce960"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_public_predictions_v2.py",
+      "size_bytes": 2022,
+      "sha256": "226812be0f08d7f9f292d44fc60ed07a20f822f1153432c3ca17e66accdadff1"
+    },
+    {
+      "path": "neurocad/tools/materialize_linkcad_two_pass_compiler_public_v1.py",
+      "size_bytes": 1409,
+      "sha256": "1b647b04cde3b5019847875b0fba3fc547b4d5d347c51aade3c421f21baf03f7"
+    },
+    {
+      "path": "neurocad/tools/pretrain_linkcad_primitive_proposer_v2.py",
+      "size_bytes": 7566,
+      "sha256": "55782639758acbb247633b8b1a13db7ec365d9c693079379d7283b3dbca1ab94"
+    },
+    {
+      "path": "neurocad/tools/restore_fusion_assembly_dataset.py",
+      "size_bytes": 76269,
+      "sha256": "f2f0ef653f23d95cc67364f48334ced282d729268e7e03738c0c36c37413414b"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_contract_strength_curve_v1.py",
+      "size_bytes": 10566,
+      "sha256": "5d1698eb6df600bffa591ee1904f1b413c1b7b4f0a9ad2430e9adb9d2a644d7e"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_frozen_confirmation_execution_v1.py",
+      "size_bytes": 4519,
+      "sha256": "a5b565afae2bf11976b373d27decdb2c6129e3b9b07d43afe98bb0e30fd3170e"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_global_assembly_execution_v1.py",
+      "size_bytes": 3078,
+      "sha256": "663e2badfc96a975fb4f55d5a46694c5d2902d851e8c320b532da97f2457f67a"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_language_planner_v1.py",
+      "size_bytes": 5220,
+      "sha256": "28c229f205bcfb760a2f760c6c7396148bd38cc158c8660d385740505369ecb9"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_pair_exact_smoke_v1.py",
+      "size_bytes": 2620,
+      "sha256": "00a862c5f7635bcb595b38734c912f1d3ba02afc7cbb470bb53981d923b75a43"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_pure_llm_baseline_v1.py",
+      "size_bytes": 4979,
+      "sha256": "eb0a9bc75e5faffdb98cdb9e9f5c4d098de465a243b52fbbd05eb4fe2ce4ed31"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_request_graph_audit_v1.py",
+      "size_bytes": 6241,
+      "sha256": "2f4aab60ba9da6918adde655ec2384408b7e1ee4345b2d905ab209a02954cc2d"
+    },
+    {
+      "path": "neurocad/tools/run_linkcad_spada_style_baseline_v1.py",
+      "size_bytes": 8114,
+      "sha256": "aeff8da395846dd7abc6e17252f5bb6dabc5e6d754fd57ccdc929f37cfa1cb5e"
+    },
+    {
+      "path": "neurocad/tools/train_linkcad_factorized_pilot_v1.py",
+      "size_bytes": 35392,
+      "sha256": "085606f08bd141672a991939abe1e0f345291e5e1f4a67e474aa67c67df698e0"
+    },
+    {
+      "path": "neurocad/v19_authenticated_training_bundle_v1.py",
+      "size_bytes": 28745,
+      "sha256": "9620332f3799c406b4c245efb78814362451e0a843baeca208c3c860bc1e4617"
+    },
+    {
+      "path": "neurocad/v19_brep_program_model_v1.py",
+      "size_bytes": 16088,
+      "sha256": "7fef076e2f01bfade5d41a00b0285f4d8756ed56b7cfc2295f5385884f7da54b"
+    },
+    {
+      "path": "neurocad/v19_descriptor_brep_pilot_v1.py",
+      "size_bytes": 23600,
+      "sha256": "f4f5754f96497b0631e77fbad336169949403bcf0f32dd22db1f63af8aa2d158"
+    },
+    {
+      "path": "neurocad/v19_descriptor_brep_program_model_v1.py",
+      "size_bytes": 6134,
+      "sha256": "d5f4bc6006d9a9ce71b5cc974572925965c3139300b95117e42d9a3cb7a9c8b8"
+    },
+    {
+      "path": "neurocad/v19_dual_objective_program_proposer_eval_v1.py",
+      "size_bytes": 36000,
+      "sha256": "2ea8d4e204103ce1a28c88fe6bd5f6eeabd38534becf0872d0f06683dc4fa97e"
+    },
+    {
+      "path": "neurocad/v19_exact_execution_adapter_v1.py",
+      "size_bytes": 23889,
+      "sha256": "09568bcf881e9304ae6714def447ee70e24f9b5f891e8be0e82e1e53f19d3ff7"
+    },
+    {
+      "path": "neurocad/v19_exact_program_proposal_v1.py",
+      "size_bytes": 22130,
+      "sha256": "be9c4a19d9f391feebafc503102b11eb84bb8314e4c573d43f955882f6224e32"
+    },
+    {
+      "path": "neurocad/v19_program_proposal_protocol_v1.py",
+      "size_bytes": 1383,
+      "sha256": "24421e533ef984824656613fcdb8e9d9c40fcf79f480538e2701d7947b794e0f"
+    },
+    {
+      "path": "neurocad/v19_set_valued_program_learning_v1.py",
+      "size_bytes": 58921,
+      "sha256": "79e148242e6f855296aa9696dde16ca67e866ef0a0a98dbd177c0ea5e51e50ce"
+    },
+    {
+      "path": "neurocad/v19_training_bundle_protocol_v1.py",
+      "size_bytes": 20718,
+      "sha256": "c6b4e9d39164cf5a9461da1994f934bb2ff1d544ac7d740f585abc9ed71e6b09"
+    },
+    {
+      "path": "neurocad/v24_supported_semantic_execution_adapter_v1.py",
+      "size_bytes": 18943,
+      "sha256": "0cbe2a29181f81b90bec4c25358be5c0a7318adbf5b9cbfd780be58c6147416c"
+    },
+    {
+      "path": "neurocad/view_execution_pose_authority_v1.py",
+      "size_bytes": 34599,
+      "sha256": "3f0bd5be67a3904cfad1ce68fda83e48167d557570edda6f66f130ab7c59be57"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 610,
+      "sha256": "46719a96fd7fffbea53caa27207cc67ceb33b319fb6a5ef6340c239cfb7f7bdc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3893,
+      "sha256": "97820458c69928952ab63a75f80b4e10758608e1f4fd7bbc97c935d892272f6d"
+    },
+    {
+      "path": "requirements-torch-cu130-win-64.txt",
+      "size_bytes": 464,
+      "sha256": "76dee84ed177bd7c8584bf6e86a103e3684597fe37517eeb5ff1a9718a4aaea7"
+    },
+    {
+      "path": "tests/test_linkcad_assembly_export_v1.py",
+      "size_bytes": 4592,
+      "sha256": "ae406dbf4defeaf777852af8b57a5efd7e8a932f58bda366f6a9a9a79821b139"
+    },
+    {
+      "path": "tests/test_linkcad_assembly_geometry_evaluation_v1.py",
+      "size_bytes": 3681,
+      "sha256": "766d716b8d6b6a3d50cd696038e5e478df9a9cc139196cb142c8e6c1ba413c6a"
+    },
+    {
+      "path": "tests/test_linkcad_brep_encoder_v1.py",
+      "size_bytes": 1639,
+      "sha256": "466ee0713e9086aa8deeb4fc2de9f5b10b5bc8ebeaee8655e5cfeba49e5d284f"
+    },
+    {
+      "path": "tests/test_linkcad_confirmation_statistics_v1.py",
+      "size_bytes": 7034,
+      "sha256": "61d32df024f6cf66442165dc532ad416d337b19b39b0aad7d809792a64005440"
+    },
+    {
+      "path": "tests/test_linkcad_contract_dispatch_v1.py",
+      "size_bytes": 946,
+      "sha256": "6b6f00a70c5f429db90aac8743a3498a769ebb2f87a366f7751d6c2cd1bfc0e4"
+    },
+    {
+      "path": "tests/test_linkcad_factorized_model_v1.py",
+      "size_bytes": 4886,
+      "sha256": "d10f808c61cb0460e72fe628638be64f1cc87a768eded1eb102908f199172635"
+    },
+    {
+      "path": "tests/test_linkcad_global_assembly_execution_v1.py",
+      "size_bytes": 5924,
+      "sha256": "5f4875d854d13ef0b40e347b2f49225b921f4cb96e40996a43806cd89afe7c66"
+    },
+    {
+      "path": "tests/test_linkcad_joinable_style_baseline_v1.py",
+      "size_bytes": 7160,
+      "sha256": "db35dcffaf051490829399ed20c99c9c3c4a942ba2df9b41915d9c38ab7b2207"
+    },
+    {
+      "path": "tests/test_linkcad_kinematic_execution_v2.py",
+      "size_bytes": 4551,
+      "sha256": "c4826c7f3aef5dffa284e6769e1ff5378e6a773e70d0424b4fc0cbe3633ad8eb"
+    },
+    {
+      "path": "tests/test_linkcad_kinematic_execution_v3.py",
+      "size_bytes": 3817,
+      "sha256": "b64ac854eefdc83252d96a1a06719e090c3264bb718dece8a01e5a7ac49e6368"
+    },
+    {
+      "path": "tests/test_linkcad_language_planner_v1.py",
+      "size_bytes": 6368,
+      "sha256": "7209c413fba9ae9baaeb0a1b56bb3df4468a9d48815492660fe5a6175c2b3123"
+    },
+    {
+      "path": "tests/test_linkcad_port_constraint_model_v9.py",
+      "size_bytes": 3201,
+      "sha256": "862f9cdcd96474288cbbb76ee6907d2a0722938be8f593e52c135d9c92da7ed4"
+    },
+    {
+      "path": "tests/test_linkcad_port_contract_v1.py",
+      "size_bytes": 1737,
+      "sha256": "9806516eab66da690bcac35b7ae61e7e276eaee069cd85cef6c855e4b5ec5787"
+    },
+    {
+      "path": "tests/test_linkcad_pose_equivalence_v1.py",
+      "size_bytes": 2150,
+      "sha256": "c84b088986a5c83ddce98bc2d336d2e5a987c4f8a0a7dcf2370cac6979d5a574"
+    },
+    {
+      "path": "tests/test_linkcad_primitive_graph_v2.py",
+      "size_bytes": 5468,
+      "sha256": "3f3925695162b3a8b83689a7436dd0ad6ebe51fc67c0ce94c6c7d369a99e2913"
+    },
+    {
+      "path": "tests/test_linkcad_request_graph_compiler_v1.py",
+      "size_bytes": 7292,
+      "sha256": "ee6af54736b38e43d25f2034f1f77c8df5a3ad685d51e687547cb7ee7305a977"
+    },
+    {
+      "path": "tests/test_linkcad_volume_iou_v1.py",
+      "size_bytes": 1660,
+      "sha256": "9396b5a4cb7b708febdb7d8c5140da732965a505472c3094427c4c090242325a"
+    }
+  ]
+}

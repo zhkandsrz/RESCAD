@@ -1,0 +1,28 @@
+name: neurocad
+channels:
+  - conda-forge
+dependencies:
+  # Python 3.12 is the tested interpreter for this Windows research artifact.
+  # CadQuery 2.8.0 selects OCP 7.9.3.1.* from conda-forge; do not install a
+  # second independent OCP wheel with pip.
+  - python=3.12
+  - cadquery=2.8.0
+  - numpy
+  - pillow
+  - py7zr
+  - requests
+  - pytest
+  - jsonschema=4.26.0
+  - openai
+  - matplotlib
+  - pip
+  # Runtime requirements declared by the official torch wheel. They remain
+  # conda-owned so the explicit environment lock captures every small Python
+  # dependency; bootstrap installs only the hashed CUDA wheel with pip.
+  - filelock
+  - fsspec
+  - jinja2
+  - networkx
+  - python-igraph=0.11.9
+  - sympy>=1.13.3
+  - typing_extensions>=4.10
