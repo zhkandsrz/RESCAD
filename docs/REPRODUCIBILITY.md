@@ -17,7 +17,7 @@
 | Product-structured STEP export | `neurocad/linkcad_assembly_export_v1.py` |
 | Geometry and task metrics | `neurocad/linkcad_assembly_geometry_evaluation_v1.py`, `neurocad/tools/evaluate_linkcad_volume_iou_v1.py` |
 
-The source includes supporting modules reached by these implementations. Internal version numbers identify implementations, not successive public benchmark results.
+The source includes supporting modules reached by these implementations. Internal version numbers identify implementations, not successive public benchmark results. The V2 kinematic module retains only shared primitive frames, pose proposals, and inference; obsolete V2 execution/oracle routines and their historical dependencies have been removed. V3 pair execution and the learned model implementations are unchanged.
 
 ## Inputs and outputs
 
@@ -49,8 +49,38 @@ The training loader expects public protocols plus reference assignments and inte
 
 The paper uses AdamW, learning rate 0.0003, weight decay 0.0001, and seeds 1701/1702/1703. CLI flags and model state are provided; full from-scratch reproduction still requires the missing data/initialization artifacts.
 
-The exact executor and geometry evaluator expose separate CLIs with `--help`. Missing outputs must remain failures for failure-aware metrics; conditional geometric distances must be reported with their valid denominators. Keep collision freedom distinct from intended assembly correctness. Do not substitute this demo's first-proposal execution for the paper's bounded multi-proposal evaluation.
+Current execution/export entry points (each exposes `--help`):
+
+```bash
+python -m neurocad.tools.run_rescad_pair_execution --help
+python -m neurocad.tools.run_linkcad_global_assembly_execution_v1 --help
+python -m neurocad.tools.export_linkcad_assembly_package_v1 --help
+python -m neurocad.tools.evaluate_linkcad_assembly_geometry_v1 --help
+python -m neurocad.tools.evaluate_linkcad_volume_iou_v1 --help
+```
+
+Pair execution takes public ranked predictions and a STEP root; global execution
+composes those pair results; export writes accepted assemblies. The example
+provides an executable illustration of this data flow. Its first-proposal
+configuration is not the paper's bounded multi-proposal evaluation.
+
+Missing outputs must remain failures for failure-aware metrics; conditional
+geometric distances must retain their valid denominators. Keep collision
+freedom, recorded execution acceptance, intended component/interface labels,
+and independently checked physical contact distinct. The geometry evaluator's
+`intended_exact` combines label agreement with the recorded executor status;
+it is not an additional independent final-contact test. Trimming this release
+does not rerun or strengthen the evidence behind historical benchmark numbers.
 
 ## Release scope
 
-This is a source-and-model release with offline smoke coverage, not a claim that every paper result was rerun during packaging. The archive deliberately excludes private logs, raw API responses, the full dataset archive, unreviewed third-party binaries, manuscript editing history, and local environment directories. The test report records the checks actually performed on the export.
+This is a core source-and-model release, not a claim that every paper result was
+rerun during packaging. It excludes private logs, raw API responses, the full
+dataset archive, unreviewed third-party binaries, manuscript editing history,
+local environments, obsolete executors, and historical experiment/baseline
+drivers. Third-party attribution remains in DATA_AND_BASELINES.md.
+
+Validation of this trimmed snapshot: 47 offline tests passed. The procedural
+demo generated 16 candidates, produced eight ranked hypotheses, and exported
+one assembly accepted by its pair/global checks. No live API calls were made.
+Seven upstream ezdxf/Pyparsing deprecation warnings were observed.

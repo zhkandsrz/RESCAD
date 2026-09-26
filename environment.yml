@@ -1,4 +1,4 @@
-name: neurocad
+name: rescad
 channels:
   - conda-forge
 dependencies:
